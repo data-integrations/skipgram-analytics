@@ -1,5 +1,5 @@
 /*
- * Copyright © 2016 Cask Data, Inc.
+ * Copyright © 2016-2019 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -13,10 +13,10 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package co.cask.hydrator.plugin;
+package io.cdap.plugin.skipgram;
 
-import co.cask.cdap.api.data.schema.Schema;
-import co.cask.cdap.etl.mock.common.MockPipelineConfigurer;
+import io.cdap.cdap.api.data.schema.Schema;
+import io.cdap.cdap.etl.mock.common.MockPipelineConfigurer;
 import org.junit.Assert;
 import org.junit.Test;
 
